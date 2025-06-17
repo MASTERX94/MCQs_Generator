@@ -1,0 +1,22 @@
+# Core data and visualization
+numpy>=1.23.0  
+pandas>=1.5.0  
+matplotlib>=3.5.0  
+seaborn>=0.11.2  
+
+# Text preprocessing and NLP
+nltk>=3.7  
+spacy>=3.4  
+sentence-transformers>=2.2.2  
+
+# Deep learning & language models
+torch>=1.12.0  
+transformers>=4.20.0  
+
+# Machine Learning (optional for scoring/classification)
+scikit-learn>=1.1.0  
+xgboost>=1.6.0  
+catboost>=1.1.0  
+
+# Web app (optional)
+Flask>=2.2.0
