@@ -1,22 +1,28 @@
 # Core data and visualization
-numpy>=1.23.0  
-pandas>=1.5.0  
-matplotlib>=3.5.0  
-seaborn>=0.11.2  
+numpy>=1.23.0
+pandas>=1.5.0
+matplotlib>=3.5.0
+seaborn>=0.11.2
 
 # Text preprocessing and NLP
-nltk>=3.7  
-spacy>=3.4  
-sentence-transformers>=2.2.2  
+nltk>=3.7
+spacy>=3.4
+sentence-transformers>=2.2.2
 
-# Deep learning & language models
-torch>=1.12.0  
-transformers>=4.20.0  
+# Deep learning & language models (CPU-safe versions)
+torch==2.1.0+cpu
+torchvision==0.16.0
+torchaudio==2.1.0
+transformers>=4.20.0
 
-# Machine Learning (optional for scoring/classification)
-scikit-learn>=1.1.0  
-xgboost>=1.6.0  
-catboost>=1.1.0  
+# Machine Learning (optional)
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+catboost>=1.1.0
 
-# Web app (optional)
+# Web app
 Flask>=2.2.0
+flask-bootstrap>=3.3.7.1
+
+# PDF parsing
+PyPDF2>=3.0.0
